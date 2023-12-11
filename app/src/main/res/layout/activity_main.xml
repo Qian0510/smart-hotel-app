@@ -44,9 +44,11 @@
             ></TextView>
 
         <EditText
+            android:id="@+id/user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="請輸入用戶名"></EditText>
+            android:hint="請輸入用戶名"
+            tools:ignore="TouchTargetSizeCheck"></EditText>
 
     </LinearLayout>
 
@@ -65,10 +67,12 @@
             ></TextView>
 
         <EditText
+            android:id="@+id/pwd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:hint="請輸入密碼"
             android:password="true"
-            android:hint="請輸入密碼"></EditText>
+            tools:ignore="TouchTargetSizeCheck"></EditText>
 
     </LinearLayout>
     <TextView
@@ -97,9 +101,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="登入"
-            android:textColor="#888888"
             style="@android:style/Widget.Material.Light.Button"
             android:enabled="false"
+            android:id="@+id/btn_2"
             ></Button>
     </LinearLayout>
 
