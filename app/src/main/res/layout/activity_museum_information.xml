@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Museum_information"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/back"
+            android:scaleType="fitCenter"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="館內樓層資訊"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:paddingRight="30dp"
+            >
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="大廳"
+            android:textSize="27dp"
+           ></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4F"
+            android:textSize="@dimen/btn_size"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="6F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="7F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8F"
+            android:textSize="@dimen/btn_size"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="9F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="10F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="11F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="12F"
+            android:textSize="@dimen/btn_size"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="13F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="14F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="15F"
+            android:textSize="@dimen/btn_size"></Button>
+
+        <Button
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="16F"
+            android:textSize="@dimen/btn_size"></Button>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="請點選您想獲取的樓層資訊"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+
+</LinearLayout>
