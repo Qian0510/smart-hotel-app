@@ -95,7 +95,10 @@
             android:layout_height="wrap_content"
             android:text="註冊"
             android:id="@+id/register"
-            style="@android:style/Widget.Material.Light.Button"></Button>
+            style="@android:style/Widget.Material.Light.Button"
+            android:background="#FF5722"
+            android:layout_marginEnd="20dp"></Button>
+
 
         <Button
             android:layout_width="wrap_content"
@@ -104,6 +107,7 @@
             style="@android:style/Widget.Material.Light.Button"
             android:enabled="false"
             android:id="@+id/btn_2"
+            android:background="#FF5722"
             ></Button>
     </LinearLayout>
 
