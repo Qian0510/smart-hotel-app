@@ -12,14 +12,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+
         <ImageView
-            android:id="@+id/iv_back"
+            android:id="@+id/iv_back3"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:padding="5dp"
-            android:src="@drawable/back"
             android:scaleType="fitCenter"
-            ></ImageView>
+            android:src="@drawable/back"></ImageView>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -47,7 +48,7 @@
             android:gravity="center"
             android:text="大廳"
             android:textSize="27dp"
-           ></Button>
+            ></Button>
 
         <Button
             style="@android:style/Widget.Material.Light.Button"
